@@ -1,6 +1,6 @@
 {
   "name": "unity-zxing",
-  "version": "0.16.2",
+  "version": "1.0.0",
   "description": "Unity specific rebundle of ZXing.Net",
   "main": "index.js",
   "repository": {
@@ -15,14 +15,10 @@
   "author": "douglas.linder@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shadowmint/unity-TEMPLATE/issues"
+    "url": "https://github.com/shadowmint/unity-zxing/issues"
   },
-  "homepage": "https://github.com/shadowmint/unity-TEMPLATE",
+  "homepage": "https://github.com/shadowmint/unity-zxing",
   "scripts": {
     "postinstall": "node scripts/postinstall.js"
-  },
-  "dependencies": {
-    "ncp": "^2.0.0",
-    "mkdirp": "^0.5.1"
   }
 }

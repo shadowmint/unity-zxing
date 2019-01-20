@@ -41,5 +41,6 @@ Library/shadercompiler-64bit-*.log
 .DS_Store
 
 node_modules
-Assets/packages
+Assets/pkg-all
 origin
+Logs

@@ -2,6 +2,8 @@
 
 This is a unity-only rebundle of https://github.com/micjahn/ZXing.Net
 
+It packages version `0.16.2`, because version `0.16.4+` are broken for unity.
+
 The examples in `Demo` are from `https://github.com/linmq/ZXing_Unity3D_Test`.
 
 See that project for usage details.
@@ -12,11 +14,11 @@ From your unity project folder:
 
     npm init
     npm install shadowmint/unity-zxing --save
-    echo Assets/packages >> .gitignore
-    echo Assets/packages.meta >> .gitignore
+    echo Assets/pkg-all >> .gitignore
+    echo Assets/pkg-all.meta >> .gitignore
 
 The package and all its dependencies will be installed in
-your Assets/packages folder.
+your Assets/pkg-all folder.
 
 You may need to add these compile constants under Edit > Project Settings > Player > Other Settings
 
